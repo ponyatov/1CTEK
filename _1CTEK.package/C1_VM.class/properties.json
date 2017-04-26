@@ -1,12 +1,14 @@
 {
 	"category" : "_1CTEK",
 	"classinstvars" : [
-		 ],
+		"mk" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "DmitryPonyatov 5/11/2007 21:02",
 	"instvars" : [
-		 ],
+		"mk",
+		"hpp",
+		"cpp" ],
 	"name" : "C1_VM",
 	"pools" : [
 		 ],
