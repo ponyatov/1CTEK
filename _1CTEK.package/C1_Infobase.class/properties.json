@@ -1,0 +1,14 @@
+{
+	"category" : "_1CTEK",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DmitryPonyatov 4/27/2017 03:20",
+	"instvars" : [
+		 ],
+	"name" : "C1_Infobase",
+	"pools" : [
+		 ],
+	"super" : "C1_Object",
+	"type" : "normal" }
