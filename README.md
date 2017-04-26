@@ -1,5 +1,5 @@
 # 1CTEK
-## стек технологий 1С (объектная модель вирутальной машины)
+## стек технологий 1С (объектная модель виртуальной машины)
 
 (c) Dmitry Ponyatov <<dponyatov@gmail.com>> , GNU LesserGPL
 
@@ -45,7 +45,7 @@ github: https://github.com/ponyatov/1CTEK
 ### реализация
 
 разработка и runtime обеспечивается системой программирования
-на динамическом объектном языке Smalltalk: [Pharo](http://pharo.org/)
+на динамическом объектном языке Smalltalk: [Pharo](http://pharo.org/)5
 
 к сожалению есть большие проблемы с поддержкой кириллицы,
 поэтому вся разработка ведется на английском
@@ -59,7 +59,7 @@ cd D:\w
 git clone -o gh git clone -o gh git@github.com:ponyatov/1CTEK.git
 ```
 
-* распаковать виртуальную машину, образ системы и исходный код ядра Pharo в один каталог (D:\SmallTalk\Pharo6)
+* распаковать виртуальную машину, образ системы и исходный код ядра Pharo в один каталог (D:\SmallTalk\Pharo)
 * запустить Pharo, World/Tools/Catalog Browser, установить пакеты:
   * GitFileTree (интерфейс к git-клиенту)
   * PetitParser (генератор PEG-парсеров текстовых форматов)
