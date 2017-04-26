@@ -65,6 +65,14 @@ git clone -o gh git clone -o gh git@github.com:ponyatov/1CTEK.git
 * запустить Pharo, World/Tools/Catalog Browser, установить пакеты:
   * GitFileTree (интерфейс к git-клиенту)
   * PetitParser (генератор PEG-парсеров текстовых форматов)
+* World/Monticello Browser
+  * создать пакет +Package `_CTEK`
+  * прописать для созданного пакета репозиторий
+```
++Repository
+Reposytory type/ gitfiletree:// D:\w\1CTEK
+```
+  * открыть репозиторий, и сделать `Load`
 
 ### источники информации
 
