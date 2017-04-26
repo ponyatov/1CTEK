@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "DmitryPonyatov 5/11/2007 21:02",
 	"instvars" : [
-		"mk",
 		"hpp",
-		"cpp" ],
+		"cpp",
+		"mk",
+		"bat",
+		"gitignore" ],
 	"name" : "C1_VM",
 	"pools" : [
 		 ],
