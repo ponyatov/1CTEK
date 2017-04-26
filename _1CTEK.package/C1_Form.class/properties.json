@@ -1,0 +1,14 @@
+{
+	"category" : "_1CTEK",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DmitryPonyatov 5/11/2007 21:01",
+	"instvars" : [
+		 ],
+	"name" : "C1_Form",
+	"pools" : [
+		 ],
+	"super" : "C1_Object",
+	"type" : "normal" }
