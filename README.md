@@ -49,7 +49,7 @@ github: https://github.com/ponyatov/1CTEK
 на динамическом объектном языке Smalltalk: [Pharo](http://pharo.org/)5
 
 к сожалению есть большие проблемы с поддержкой кириллицы,
-поэтому вся разработка ведется на английском
+поэтому вся разработка ведется на английском языке
 
 ### установка
 
@@ -57,7 +57,7 @@ github: https://github.com/ponyatov/1CTEK
 * создать локальный репозиторий
 ```
 cd D:\w
-git clone -o gh git clone -o gh git@github.com:ponyatov/1CTEK.git
+git clone -o gh git git@github.com:ponyatov/1CTEK.git
 ```
 
 * распаковать виртуальную машину, образ системы и исходный код ядра Pharo в один каталог (D:\SmallTalk\Pharo)
