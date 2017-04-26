@@ -1,0 +1,1 @@
+special case: Makefile for generated code compilation

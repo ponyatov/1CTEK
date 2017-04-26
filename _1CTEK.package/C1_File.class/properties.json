@@ -1,0 +1,15 @@
+{
+	"category" : "_1CTEK",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DmitryPonyatov 4/26/2017 21:15",
+	"instvars" : [
+		"filename",
+		"stream" ],
+	"name" : "C1_File",
+	"pools" : [
+		 ],
+	"super" : "C1_Object",
+	"type" : "normal" }
