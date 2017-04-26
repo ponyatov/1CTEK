@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DmitryPonyatov 4/27/2017 03:37",
+	"commentStamp" : "DmitryPonyatov 4/27/2017 03:38",
 	"instvars" : [
-		"name",
-		"dir",
-		"lang" ],
-	"name" : "C1_Infobase",
+		 ],
+	"name" : "C1_Lang_EN",
 	"pools" : [
 		 ],
-	"super" : "C1_Object",
+	"super" : "C1_Language",
 	"type" : "normal" }
