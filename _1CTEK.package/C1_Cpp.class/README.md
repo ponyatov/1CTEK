@@ -1,0 +1,1 @@
+Source file with C++ syntax (.cpp .hpp)
