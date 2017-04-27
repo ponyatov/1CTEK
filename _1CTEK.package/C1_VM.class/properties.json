@@ -10,7 +10,9 @@
 		"cpp",
 		"mk",
 		"bat",
-		"gitignore" ],
+		"gitignore",
+		"res",
+		"rc" ],
 	"name" : "C1_VM",
 	"pools" : [
 		 ],

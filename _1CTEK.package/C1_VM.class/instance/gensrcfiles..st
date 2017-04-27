@@ -9,18 +9,24 @@ gensrcfiles: prefix
 	cpp close.
 	" Makefile "
 	mk := C1_Makefile new: ( prefix , 'Makefile' ).
-	mk put:
+	mk put: (
 		'log.log: ./exe.exe' , String lf,
 		String tab , './exe.exe > $@ && tail $(TAIL) $@' , String lf ,
 		'C = cpp.cpp' , String lf , 'H = hpp.hpp' , String lf ,
-		'./exe.exe: $(C) $(H)' , String lf ,
-		String tab , '$(CXX) $(CXXFLAGS) -o $@ $(C)' , String lf.
+		'./exe.exe: $(C) $(H) $(RES)' , String lf ,
+		String tab , '$(CXX) $(CXXFLAGS) -o $@ $(RES) $(C) $(L)' , String lf ,
+		'res.res: rc.rc' , String lf ,
+		String tab , 'windres $< -O coff -o $@' , String lf ).
 	mk close.
+	" bat.bat "
+	rc := C1_File new: ( prefix , 'rc.rc' ).
+	rc put: 'LOGO ICON "ico/beacon64x64.ico"'.
+	rc close.
 	" bat.bat "
 	bat := C1_File new: ( prefix , 'bat.bat' ).
 	bat put:
 		'@gvim -p ',
-		'hpp.hpp cpp.cpp Makefile ',
+		'hpp.hpp cpp.cpp Makefile rc.rc ',
 		'bat.bat .gitignore' , String lf .
 	bat close.
 	" .gitignore "
@@ -29,5 +35,6 @@ gensrcfiles: prefix
 		'*~' , String lf ,
 		'*.swp' , String lf ,
 		'exe.exe' , String lf ,
-		'log.log' , String lf .
+		'log.log' , String lf ,
+		'res.res' , String lf .
 	gitignore close
