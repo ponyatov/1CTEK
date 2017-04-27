@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DmitryPonyatov 4/27/2017 01:50",
+	"commentStamp" : "DmitryPonyatov 4/27/2017 11:17",
 	"instvars" : [
 		 ],
-	"name" : "C1_sym",
+	"name" : "C1_scalar",
 	"pools" : [
 		 ],
-	"super" : "C1_scalar",
+	"super" : "C1_AST",
 	"type" : "normal" }

@@ -1,0 +1,3 @@
+printing
+cpp
+	^ val asString

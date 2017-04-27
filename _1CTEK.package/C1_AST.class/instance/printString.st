@@ -1,3 +1,3 @@
 printing
 printString
-	^ '<' , tag , '.' , val , '>'
+	^ '<' , tag , ':' , val , '>'
