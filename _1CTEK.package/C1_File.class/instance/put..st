@@ -1,3 +1,3 @@
 instance creation
 put: aString
-	stream nextPutAll: aString
+	self stream nextPutAll: aString

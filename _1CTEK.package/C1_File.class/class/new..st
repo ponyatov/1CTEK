@@ -4,4 +4,5 @@ new: aFileName
 	inst := self new.
 	inst filename: aFileName.
 	inst stream: ( FileStream forceNewFileNamed: aFileName ).
-	^ inst
+	inst initialize.
+	^ inst initialize
