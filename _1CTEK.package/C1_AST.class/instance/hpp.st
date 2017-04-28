@@ -1,3 +1,0 @@
-printing
-hpp
-	^ self cpp

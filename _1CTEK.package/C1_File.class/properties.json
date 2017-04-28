@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "DmitryPonyatov 4/26/2017 21:15",
 	"instvars" : [
-		"filename",
-		"stream" ],
+		"stream",
+		"name" ],
 	"name" : "C1_File",
 	"pools" : [
 		 ],

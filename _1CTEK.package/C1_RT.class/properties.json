@@ -4,11 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DmitryPonyatov 4/27/2017 11:21",
+	"commentStamp" : "DmitryPonyatov 4/28/2017 08:46",
 	"instvars" : [
-		 ],
-	"name" : "C1_int",
+		"path",
+		"mk",
+		"bat" ],
+	"name" : "C1_RT",
 	"pools" : [
 		 ],
-	"super" : "C1_type",
+	"super" : "C1_Object",
 	"type" : "normal" }

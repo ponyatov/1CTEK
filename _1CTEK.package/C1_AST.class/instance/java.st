@@ -1,3 +1,0 @@
-printing
-java
-	^ self cpp
