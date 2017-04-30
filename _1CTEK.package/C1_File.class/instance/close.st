@@ -1,3 +1,0 @@
-finalizing
-close
-	stream close

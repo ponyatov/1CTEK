@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DmitryPonyatov 4/30/2017 20:29",
+	"commentStamp" : "DmitryPonyatov 4/30/2017 20:30",
 	"instvars" : [
-		"tag",
-		"val" ],
-	"name" : "C1_Object",
+		 ],
+	"name" : "C1_Object_test",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }
