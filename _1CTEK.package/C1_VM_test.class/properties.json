@@ -1,0 +1,14 @@
+{
+	"category" : "_1CTEK",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DmitryPonyatov 4/30/2017 20:44",
+	"instvars" : [
+		 ],
+	"name" : "C1_VM_test",
+	"pools" : [
+		 ],
+	"super" : "C1_Module_test",
+	"type" : "normal" }

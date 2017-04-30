@@ -1,0 +1,22 @@
+{
+	"category" : "_1CTEK",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DmitryPonyatov 4/30/2017 20:42",
+	"instvars" : [
+		"cr",
+		"tab",
+		"dir",
+		"mk",
+		"hpp",
+		"cpp",
+		"bat",
+		"git",
+		"win32" ],
+	"name" : "C1_Module",
+	"pools" : [
+		 ],
+	"super" : "C1_Object",
+	"type" : "normal" }
